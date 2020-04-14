@@ -162,8 +162,7 @@ html, body {
       left: 0;
       width: 100%;
       height: 100vh;
-      box-shadow: 0 -200px 160px 0px inset #111;
-      border-radius: 1px; }
+      box-shadow: 0 -200px 160px 0px inset #111; }
     .main .eyecatch__img {
       width: 100%;
       height: 100vh;
