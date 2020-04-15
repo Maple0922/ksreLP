@@ -133,12 +133,12 @@ html, body {
     .hamburger-menu .sns .twitter,
     .hamburger-menu .sns .instagram,
     .hamburger-menu .sns .youtube {
-      width: 30px;
-      height: 30px; }
+      width: 28px;
+      height: 28px; }
       .hamburger-menu .sns .twitter img,
       .hamburger-menu .sns .instagram img,
       .hamburger-menu .sns .youtube img {
-        height: 30px; }
+        height: 28px; }
 
 .main {
   width: 100%;
