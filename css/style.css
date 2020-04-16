@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400|Roboto:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap");
 * {
   box-sizing: border-box; }
 
@@ -44,7 +45,10 @@ a, input, button, textarea, select, option {
   appearance: none; }
 
 * {
-  font-family: 'Roboto', 'Noto Sans JP', sans-serif; }
+  font-family: 'Josefin Sans', 'Noto Sans JP', sans-serif; }
+
+.main > div h1 {
+  font-family: "Josefin Sans"; }
 
 html, body {
   background: #111; }
@@ -148,9 +152,15 @@ html, body {
   .main > div {
     background: #111;
     padding: 0 5%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 800px;
+    padding-top: 100px;
+    max-width: 1000px; }
+    .main > div h1 {
+      font-size: 2rem; }
   .main .eyecatch {
     width: 100%;
+    max-width: none;
     height: 100vh;
     padding: 0;
     display: none; }
@@ -171,7 +181,6 @@ html, body {
       filter: blur(2px); }
   .main .intro {
     position: relative;
-    height: 500px; }
+    max-width: 1000px; }
     .main .intro__message {
-      text-align: center;
       padding: 40px 0; }

@@ -1,7 +1,15 @@
 // font
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400|Roboto:300,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
 * {
-  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  font-family: 'Josefin Sans', 'Noto Sans JP', sans-serif;
+}
+
+.main {
+  > div {
+    h1 {
+      font-family: "Josefin Sans";
+    }
+  }
 }

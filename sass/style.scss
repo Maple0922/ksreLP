@@ -15,6 +15,7 @@ html,body {
   z-index: 1000;
   display: flex;
   justify-content: space-between;
+  // @include shadow(0, 0, $super-dark-gray);
 
   > div {
     height: $height-header;
@@ -132,9 +133,18 @@ html,body {
     background: $black;
     padding: 0 5%;
     margin: 0 auto;
+    height: 800px;
+    padding-top: 100px;
+
+    max-width: 1000px;
+    h1 {
+      font-size: 2rem;
+
+    }
   }
   .eyecatch {
     width: 100%;
+    max-width: none;
     height: $height-eyecatch;
     padding: 0;
     display: none;
@@ -160,10 +170,9 @@ html,body {
 
   .intro {
     position: relative;
-    height: 500px;
+    max-width: 1000px;
 
     &__message {
-      text-align: center;
       padding: 40px 0;
     }
 
